@@ -190,19 +190,19 @@ def queen_comp(queens, g1, g2, g3):
 
 par_colony1={}
 
-file1="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony1-day01.txt"
+file1=""
 Colony1_day1_Graph=GraphCreation(file1)
 Colony1_day1_Clust=Clustering(Colony1_day1_Graph)
 print(Colony1_day1_Clust[1],sorted(Colony1_day1_Clust[2]))
 par_colony1['day 1']=Colony1_day1_Clust[0]
 
-file2="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony1-day05.txt"
+file2=""
 Colony1_day5_Graph=GraphCreation(file2)
 Colony1_day5_Clust=Clustering(Colony1_day5_Graph)
 print(Colony1_day5_Clust[1],sorted(Colony1_day5_Clust[2]))
 par_colony1['day 5']=Colony1_day5_Clust[0]
 
-file3="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony1-day10.txt"
+file3=""
 Colony1_day10_Graph=GraphCreation(file3)
 Colony1_day10_Clust=Clustering(Colony1_day10_Graph)
 print(Colony1_day10_Clust[1],sorted(Colony1_day10_Clust[2]))
@@ -212,19 +212,19 @@ par_colony1['day 10']=Colony1_day10_Clust[0]
 
 par_colony2={}
 
-file4="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony2-day01.txt"
+file4=""
 Colony2_day1_Graph=GraphCreation(file4)
 Colony2_day1_Clust=Clustering(Colony2_day1_Graph)
 print(Colony2_day1_Clust[1],sorted(Colony2_day1_Clust[2]))
 par_colony2['day 1']=Colony2_day1_Clust[0]
 
-file5="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony2-day05.txt"
+file5=""
 Colony2_day5_Graph=GraphCreation(file5)
 Colony2_day5_Clust=Clustering(Colony2_day5_Graph)
 print(Colony2_day5_Clust[1],sorted(Colony2_day5_Clust[2]))
 par_colony2['day 5']=Colony2_day5_Clust[0]
 
-file6="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony2-day10.txt"
+file6=""
 Colony2_day10_Graph=GraphCreation(file6)
 Colony2_day10_Clust=Clustering(Colony2_day10_Graph)
 print(Colony2_day10_Clust[1],sorted(Colony2_day10_Clust[2]))
@@ -234,13 +234,13 @@ par_colony2['day 10']=Colony2_day10_Clust[0]
 
 par_colony3={}
 
-file7="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony3-day01.txt"
+file7=""
 Colony3_day1_Graph=GraphCreation(file7)
 Colony3_day1_Clust=Clustering(Colony3_day1_Graph)
 print(Colony3_day1_Clust[1],sorted(Colony3_day1_Clust[2]))
 par_colony3['day 1']=Colony3_day1_Clust[0]
 
-file8="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony3-day05.txt"
+file8=""
 Colony3_day5_Graph=GraphCreation(file8)
 Colony3_day5_Clust=Clustering(Colony3_day5_Graph)
 print(Colony3_day5_Clust[1],sorted(Colony3_day5_Clust[2]))
