@@ -246,7 +246,7 @@ Colony3_day5_Clust=Clustering(Colony3_day5_Graph)
 print(Colony3_day5_Clust[1],sorted(Colony3_day5_Clust[2]))
 par_colony3['day 5']=Colony3_day5_Clust[0]
 
-file9="C:\\Users\\alelu\\Desktop\\Ant Colony\\Datasets\\Colony3-day09.txt"
+file9=""
 Colony3_day10_Graph=GraphCreation(file9)
 Colony3_day10_Clust=Clustering(Colony3_day10_Graph)
 print(Colony3_day10_Clust[1],sorted(Colony3_day10_Clust[2]))
