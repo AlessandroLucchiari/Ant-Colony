@@ -1,6 +1,17 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+# INSERT HERE THE LOCAL PATHS
+file1= #Local Path Dataset Colony 1 Day 1
+file2= #Local Path Dataset Colony 1 Day 5
+file3= #Local Path Dataset Colony 1 Day 10
+file4= #Local Path Dataset Colony 2 Day 1
+file5= #Local Path Dataset Colony 2 Day 5
+file6= #Local Path Dataset Colony 2 Day 10
+file7= #Local Path Dataset Colony 3 Day 1
+file8= #Local Path Dataset Colony 3 Day 5
+file9= #Local Path Dataset Colony 3 Day 10
+
 # """
 # Clustering the datasets using the Louvain method
 # """
@@ -187,15 +198,7 @@ def counter(dic, value):
     return count
 
 
-file1=
-file2=
-file3=
-file4=
-file5=
-file6=
-file7=
-file8=
-file9=
+
 #############################################################################################
 #Starting from 3 different files, it creates 3 graphs and compute the communities in these.
 #At the end:
