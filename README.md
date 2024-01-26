@@ -1,5 +1,5 @@
 # Ant Social Organization is understandable by the colony’s study
-In this GitHub repository, we present the source code used in the analysis of data sets describing the social interactions of three ant colonies observed on three different days.
+In this GitHub repository, we present the source code used in the analysis of data sets describing the social interactions of three ant colonies observed on three different days. This study is based on the paper _Danielle P. Mersch, A. C. and Keller, L. (2013). Tracking individuals shows spatial fidelity is a key regulator of ant social organization. Science._.
 
 The main objective of this repository is to provide access to the code, thereby facilitating the verification of the results. Thus, the emphasis is only on providing guidelines for processing each coding file to reproduce the results, without going into details about the motivations and the conclusions.
 
